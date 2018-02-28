@@ -1,5 +1,9 @@
-require "living_well/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module LivingWell
-  # Your code goes here...
-end
+
+require_relative './eating_well/version'
+require_relative './eating_well/scraper'
+require_relative './eating_well/article'
+require_relative './eating_well/cli'

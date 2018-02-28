@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'bundler/setup'
-require './lib/eating_well.rb'
+require './lib/living_well.rb'
 
 
 LivingWell::CLI.new.call

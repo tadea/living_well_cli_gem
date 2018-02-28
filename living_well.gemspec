@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tadea Simunovic"]
   spec.email         = ["tsimunoviczg@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This gem will give you list of articles to read for living healthy life.}
+
+  spec.homepage      = "https://github.com/tadea/living_well_cli_gem.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

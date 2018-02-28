@@ -37,6 +37,20 @@ class LivingWell::CLI
    end
  end
 
+ def list_articles
+    EatingWell::Article.all.each.with_index(1) do |article,i|
+    puts "#{i}. #{article.title}"
+    puts " "
+   end
+    read_articles
+ end
+
+ def read_articles
+  input = " "
+  puts "Enter the number of the article you would love to read:"
+  end 
+ end
+
 
 
 end

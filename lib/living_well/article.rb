@@ -1,4 +1,4 @@
-class EatingWell::Article
+class LivingWell::Article
    attr_accessor :title, :date, :content, :url, :description
 
   @@all_articles = []
@@ -13,11 +13,11 @@ class EatingWell::Article
   end
 
   def self.valid_input?(num)
-    num.to_i > 0 && num.to_i <= EatingWell::Article.all.size
+    num.to_i > 0 && num.to_i <= LivingWell::Article.all.size
   end
 
   def self.find(index)
     @@all_articles[index.to_i - 1]
   end
-  
+
 end

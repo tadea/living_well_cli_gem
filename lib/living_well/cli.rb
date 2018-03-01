@@ -38,7 +38,7 @@ class LivingWell::CLI
  end
 
  def list_articles
-    EatingWell::Article.all.each.with_index(1) do |article,i|
+    LivingWell::Article.all.each.with_index(1) do |article,i|
     puts "#{i}. #{article.title}"
     puts " "
    end
@@ -48,9 +48,26 @@ class LivingWell::CLI
  def read_articles
   input = " "
   puts "Enter the number of the article you would love to read:"
-  end 
- end
+  input = gets.strip
 
+      if LivingWell::Article.valid_input?(input)
+        article = LivingWell::Article.find(input)
+        
+         puts "#{article.title}" 
+         puts  "#{article.date}"
+         puts "#{article.url}"
+         puts "#{article.description}"
 
-
+  
 end
+end
+
+def goodbye
+	puts "Thank you for visiting, have a good day!"
+    end
+
+  end
+
+
+
+

@@ -2,6 +2,8 @@
 class LivingWell::CLI
 
  def call
+ 	LivingWell::Scraper.scrape_articles
+ 	
    puts "Welcome to Living Well"
    puts " "
    menu
@@ -32,6 +34,7 @@ class LivingWell::CLI
     else
     puts "---------------------------"
     puts "Wrong input, try again!"
+    puts "---------------------------"
     menu
     end
    end

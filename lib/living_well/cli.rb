@@ -62,12 +62,19 @@ class LivingWell::CLI
          puts  "#{article.date}"
          puts ""
          url = article.url         
-         LivingWell::Scraper.read_articles(url)     
+         LivingWell::Scraper.read_articles(url)  
+         elsif input == "exit" 
+         menu 
+         else
+          puts Rainbow("Wrong input, try again!").red.bold.italic.bg(:silver).blink
+         read_articles
+   
+
     end
  end
 
  def goodbye
-	puts "Thank you for visiting, have a good day!"
+	puts "Thank you for using my cli gem, have a good day!"
  end
 
 end

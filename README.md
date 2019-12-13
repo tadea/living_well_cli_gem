@@ -1,8 +1,6 @@
-# LivingWell
+# LivingWellCli
 
-Welcome to my first ruby gem. This gem will give you latest articles about nutrition, sport and fitness.
-
-
+Welcome to Living Well. This is a Command Line Interface (CLI) based gem that gather latest articles about nutrition, sport and fitness.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-This gem will allow you to read articles from bodybuilding.com webpage. Once you load ./bin/living_well you will face with CLI interface and have an option to choose. When you want to end program type exit.
+This gem will allow you to read articles from bodybuilding.com webpage. Once you load .`/bin/living_well` you will face with CLI interface follow the on screen prompts. When you want to end program type exit.
 
 ## Development
 

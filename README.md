@@ -2,6 +2,10 @@
 
 Welcome to Living Well. This is a Command Line Interface (CLI) based gem that gather latest articles about nutrition, sport and fitness.
 
+## Demo
+
+Watch it [here](https://drive.google.com/file/d/1K7-lY3oL6fQ72zVLsqGBGxQUDsg7QW-k/view?usp=sharing)
+
 ## Installation
 
 Add this line to your application's Gemfile:
